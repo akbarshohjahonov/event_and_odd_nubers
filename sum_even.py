@@ -6,8 +6,7 @@ a=var_int//1000
 b=(var_int//100)%10
 c=(var_int//10)%10
 e=var_int%10
-
-print((a+b+c+e)-((a%2)*a+(b%2)*b+(c%2)*c+(e%2)*e))
-#Create a variable "sum_even" and assign it 0.
-print(sum_even) 
+sum_even=(a+b+c+e)-((a%2)*a+(b%2)*b+(c%2)*c+(e%2)*e)
+print(sum_even)
+#Create a variable "sum_even" and assign it 0
 #Find the sum of the even digits in the variable "var_int".
