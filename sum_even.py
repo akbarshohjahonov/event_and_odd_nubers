@@ -9,5 +9,5 @@ e=var_int%10
 
 print((a+b+c+e)-((a%2)*a+(b%2)*b+(c%2)*c+(e%2)*e))
 #Create a variable "sum_even" and assign it 0.
-print(sum_even)
+print(sum_even) 
 #Find the sum of the even digits in the variable "var_int".
