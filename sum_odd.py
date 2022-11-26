@@ -8,5 +8,5 @@ b=var_int//1000
 c=(var_int//100)%10
 e=((var_int//10)%10)
 sum_even=(a%2)*a+(b%2)*b+(c%2)*c+(e%2)*e
-print(sum_even)
+print (sum_even) 
 #Find the sum of the odd digits in the variable "var_int".
